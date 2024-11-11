@@ -1,7 +1,7 @@
 from .utils import NodeModuleSpec
 
 
-class UnifiedLanguageServer(NodeModuleSpec):
+class RemarkLanguageServer(NodeModuleSpec):
     node_module = key = "remark-language-server"
     script = ["index.js"]
     args = ["--stdio"]
